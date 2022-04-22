@@ -23,6 +23,6 @@ steps:
     goals: 'package'
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '**/*.html'
+    targetPath: 'https://github.com/vindhya94/TestNG-Metrics-Report/blob/master/test-output/TestNG-Metrics.html'
     artifact: Report
   continueOnError: true
